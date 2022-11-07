@@ -1,0 +1,177 @@
+<head>
+  <title>Formulir Film</title>
+</head>
+<style>
+  body {
+    background-color: rgb(232, 232, 232);
+  }
+</style>
+
+<header>
+  <h1>Formulir Preorder Tiket Film Homecoming<h1>
+</header>
+
+<main>
+  <div>
+    <h3> Masukkan identitas</h3>
+    <span>Nama Lengkap</span>
+    <div>
+      <input type="text" name="Nama Lengkap" placeholder="Nama Lengkap">
+    </div>
+    <div>
+      <span>Alamat</span>
+    </div>
+    <div>
+      <input type="text" name="Alamat" placeholder="Alamat">
+    </div>
+    <div>
+      <span>Umur</span>
+      <div>
+        <input type="text" name="Umur" placeholder="Umur">
+      </div>
+      <div>
+        <span>Tanggal Pemesanan</span>
+      <div>
+        <input type="date">
+      </div>
+     </div>
+</main>
+
+<body>
+  &nbsp;
+</body>
+
+<div>
+  <div>Tempat Duduk</div>
+  <label>
+    <input type="checkbox" name="centang" value="1">
+    <span>Single Seat</span>
+  </label>
+  <label>
+    <input type="checkbox" name="centang" value="2">
+    <span>Double Seat</span>
+  </label>
+</div>
+
+<body>
+  &nbsp;
+</body>
+
+<section>
+  <table border="1">
+    <caption>
+      <h3>Pilihan Kelas Tempat Duduk</h3>
+    </caption>
+    <thead>
+      <tr>
+        <th>Kelas</th>
+        <th>Fasilitas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Regular</td>
+        <td>Tempat duduk single/Double Seat</td>
+      </tr>
+      <tr>
+        <td>Superior</td>
+        <td>Tempat duduk single/Double Seat + Snack</td>
+      </tr>
+      <tr>
+        <td>Deluxe</td>
+        <td>Tempat duduk single/Double Seat + Snack + Message Seat</td>
+      </tr>
+      <tr>
+        <td>Anak Sultan</td>
+        <td>Dapat Semua Fasilitas + Posisi Tengah Bioskop</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <body>
+    &nbsp;
+  </body>
+
+  <section>
+    <div>Kelas</div>
+    <select>
+      <option value="Regular-dev">
+        Regular
+      </option>
+      <option value="Superior-dev">
+        Superior
+      </option>
+      <option value="Deluxe-dev">
+        Deluxe
+      </option>
+      <option value="Anak Sultan-dev">
+        Anak Sultan
+      </option>
+    </select>
+    </div>
+  </section>
+
+  <div>
+    <button type="submit">
+      Kirim
+    </button>
+  </div>
+
+  <body>
+    &nbsp;
+  </body>
+
+  <div>
+    <div>Konfirmasi Tempat Duduk</div>
+  </div>
+
+  <div>
+    <form method="post" action="https://whatsapp-sender-oagaov4pgq-uc.a.run.app/">
+      <div>
+        <input type="hidden" name="phoneNumber" value="6281326260376">
+      </div>
+      <div>
+        <textarea placeholder="Masukan Identitas dan Kelas Pemesanan" name="text"></textarea>
+      </div>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+  </div>
+
+  <table border="1">
+
+    <caption>Harga Tiket</caption>
+    <thead>
+      <tr>
+        <th rowspan="2">Kelas</th>
+        <th colspan="2">Tempat Duduk</th>
+      </tr>
+      <tr>
+        <th>Single</th>
+        <th>Double</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Regular</td>
+        <td>Rp 50.000</td>
+        <td>Rp 90.000</td>
+      </tr>
+
+      <tr>
+        <td>Superior</td>
+        <td>Rp 80.000</td>
+        <td>Rp 150.000</td>
+      </tr>
+
+      <tr>
+        <td>Deluxe</td>
+        <td>Rp 110.000</td>
+        <td>Rp 210.000</td>
+      </tr>
+
+      <tr>
+        <td>Anak Sultan</td>
+        <td>Rp 150.000</td>
+        <td>Rp 290.000</td>
+      </tr>
+    </tbody>
